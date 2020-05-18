@@ -89,6 +89,14 @@ def bot():
 
     return str(resp)
 
+@app.route('/')
+def hello():
+    return redirect("https://github.com/issilva5/adabot", code=302)
+
+@app.route('/cron', methods=['GET'])
+def cron():
+    return 'Hello World'
+
 if __name__ == '__main__':
     users = persistence.loadJSON()
     port = int(os.environ.get("PORT", 5000))
