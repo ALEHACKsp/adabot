@@ -5,7 +5,7 @@ import os
 import persistence
 
 from bill import Bill
-from flask import Flask, request
+from flask import Flask, request, redirect
 from twilio.twiml.messaging_response import MessagingResponse
 
 app = Flask(__name__)
