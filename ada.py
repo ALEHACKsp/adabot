@@ -91,8 +91,7 @@ def bot():
 
 @app.route('/')
 def hello():
-    #return redirect("https://www.github.com/issilva5/adabot", code=302)
-    return redirect("https://www.google.com", code=302)
+    return redirect("https://www.github.com/issilva5/adabot")
 
 @app.route('/cron', methods=['GET'])
 def cron():
