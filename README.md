@@ -17,7 +17,7 @@ Para ver essas informações basta me enviar **ajuda**.
 
 ## Informações
 
-Bot para Whatsapp desenvolvido usado a API da [Twilio](https://www.twilio.com), do [Dropbox](https://www.dropbox.com/developers/documentation/http/overview) e Python 3.6, usando Flask e outras bibliotecas. O app está hospedado no [Heroku](https://www.heroku.com), e devido ao adormecimento deste, o serviço de alerta das contas que estão para vencer não está funcionando adequadamente.
+Bot para Whatsapp desenvolvido usado a API da [Twilio](https://www.twilio.com), do [Dropbox](https://www.dropbox.com/developers/documentation/http/overview) e Python 3.6, usando Flask e outras bibliotecas. O app está hospedado no [Heroku](https://www.heroku.com).
 
 ## Variáveis de Ambiente
 
